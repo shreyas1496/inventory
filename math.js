@@ -4,6 +4,7 @@ const multiply = (a, b) => {
 const mod = (a, b) => {
   return a % b;
 }
+const expo = (a, b) => a ** b;
 const divide = (a, b) => a / b;
 
-module.exports = { multiply, divide, mod };
+module.exports = { multiply, divide, mod,expo };
